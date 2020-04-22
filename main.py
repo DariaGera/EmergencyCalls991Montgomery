@@ -119,5 +119,5 @@ while row:
     row = cursor.fetchone()
 
 print()
-
+cursor.close()
 connection.close()
