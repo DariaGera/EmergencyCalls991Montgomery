@@ -3,6 +3,18 @@ insert into town(town) values('CONSHOHOCKEN');
 insert into town(town) values('BRIDGEPORT');
 insert into town(town) values('PERKIOMEN');
 
+insert into TimeStampp(TimeStampp) values(to_timestamp('10-JUL-19 08.46.01.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'));
+insert into TimeStampp(TimeStampp) values(to_timestamp('25-JUL-19 03.17.41.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+
+insert into title(title) values(''Fire: BUILDING FIRE'');
+insert into title(title) values('EMS: NAUSEA/VOMITING');
+
+insert into address(address) values('SCHUYLKILL AVE & DEKALB ST');
+insert into address(address) values('FAYETTE ST & E 5TH AVE');
+insert into address(address) values('BORO LINE RD & DEAD END');
+insert into address(address) values('GODSHALL RD & BROOKSIDE RD');
+
+
 -------dont do it befote creating table montcoalert911 from csv-------------------------------------------------
 delete from montcoalert911 
 where addr is null 
