@@ -1,4 +1,9 @@
---------------------------------------------------------
+insert into town(town) values('NORRISTOWN');
+insert into town(town) values('CONSHOHOCKEN');
+insert into town(town) values('BRIDGEPORT');
+insert into town(town) values('PERKIOMEN');
+
+-------dont do it befote creating table montcoalert911 from csv-------------------------------------------------
 delete from montcoalert911 
 where addr is null 
     or timestamp is null 
